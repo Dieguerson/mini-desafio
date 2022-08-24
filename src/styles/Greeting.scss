@@ -1,0 +1,19 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.greeting {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
