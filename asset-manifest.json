@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mini-desafio/static/css/main.017f5b38.css",
-    "main.js": "/mini-desafio/static/js/main.0273ff9b.js",
+    "main.js": "/mini-desafio/static/js/main.92445709.js",
     "static/media/404.png": "/mini-desafio/static/media/404.bf8288ffaf047f702344.png",
     "index.html": "/mini-desafio/index.html",
     "main.017f5b38.css.map": "/mini-desafio/static/css/main.017f5b38.css.map",
-    "main.0273ff9b.js.map": "/mini-desafio/static/js/main.0273ff9b.js.map"
+    "main.92445709.js.map": "/mini-desafio/static/js/main.92445709.js.map"
   },
   "entrypoints": [
     "static/css/main.017f5b38.css",
-    "static/js/main.0273ff9b.js"
+    "static/js/main.92445709.js"
   ]
 }
