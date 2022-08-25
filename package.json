@@ -2,7 +2,7 @@
   "name": "mini-desafio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dieguerson.github.io",
+  "homepage": "https://dieguerson.github.io/mini-desafio",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@iconify/react": "^3.2.2",
