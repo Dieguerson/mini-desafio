@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import App from './App';
-import { Greeting } from './Components/Greeting';
+import { Greeting } from './components/Greeting';
 import { Formulario } from './routes/Formulario';
 import { FourOFour } from './routes/FourOFour';
 import { Personas } from './routes/Personas';

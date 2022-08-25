@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.scss'
-import { NavBar } from './Components/NavBar'
+import { NavBar } from './components/NavBar'
 import { Outlet } from 'react-router-dom';
 import { DataProvider } from './context/challengeContext'
 
