@@ -1,17 +1,18 @@
 import React from 'react';
 import './styles/App.scss'
-import NavBar from './Components/NavBar'
-import { Greeting } from './Components/Greeting';
-import { Personas } from './routes/Personas';
-import { Formulario } from './routes/Formulario';
+import NavBar from './components/NavBar'
+import { Outlet } from 'react-router-dom';
+import { DataProvider } from './context/challengeContext'
 
 function App () {
   return (
     <>
-      <NavBar />
-      <Greeting />
-      <Personas />
-      <Formulario />
+      <main>
+        <DataProvider>
+          <NavBar />
+          <Outlet />
+        </DataProvider>
+      </main>
     </>
   );
 }
