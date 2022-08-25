@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/mini-desafio/" element={<App />}>
+      <Route path="/" element={<App />}>
         <Route path="/" element={<Greeting />} />
         <Route path="personas" element={<Personas />} />
         <Route path="formulario" element={<Formulario />} />
