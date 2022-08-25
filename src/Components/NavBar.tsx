@@ -16,7 +16,7 @@ function NavBar () {
               </NavLink>
             </li>
             <li>
-              <NavLink to='/' className={({isActive}) => isActive ? 'route-active' : 'route'}>
+              <NavLink to='/mini-desafio' className={({isActive}) => isActive ? 'route-active' : 'route'}>
                 <Icon icon='ion:home-outline' className='icon'/>
                 Home
               </NavLink>
