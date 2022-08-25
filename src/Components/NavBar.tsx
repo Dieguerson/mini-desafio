@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react'
 import '../styles/NavBar.scss'
 
 export function NavBar () {
+  
   return (
     <>
       <header>
