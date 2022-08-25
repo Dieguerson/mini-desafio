@@ -27,7 +27,6 @@ export const Formulario = () => {
   }
 
   const displayPerson = () => {
-    console.log('Persona añadida:', newPerson)
     return (
       <section className='display'>
         <h2>{newPerson.nombre} ha sido añadide al grupo! Podés ir a verlo a <NavLink to='/personas' className={({isActive}) => isActive ? 'route-active' : 'route'}>Personas</NavLink>!</h2>
@@ -42,7 +41,10 @@ export const Formulario = () => {
   }
 
   useEffect(() => {
-    if (created) addPerson(newPerson)
+    if (created) {
+      addPerson(newPerson)
+      console.log('Persona añadida:', newPerson)
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [newPerson])
   
