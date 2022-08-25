@@ -15,10 +15,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
+    width: 100%;
+    padding: 0 16px;
 
     .route {
       display: flex;
@@ -32,7 +30,7 @@
   
       &-active {
         @extend .route;
-        color: rgb(255, 125, 233);
+        color: rgba(255, 125, 233, 0.5);
       }
   
       .icon {
@@ -42,4 +40,12 @@
   }
 }
 
-
+@media (min-width: 640px) {
+  .navBar {
+    .menu {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
+}

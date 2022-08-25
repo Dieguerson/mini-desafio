@@ -1,13 +1,13 @@
-import React from "react";
-import { createContext } from "react";
-import { useGetPeople } from "../hooks/usePeople";
-import { ChallengeContextProps, Context } from "../types/Challenge";
+import React from 'react';
+import { createContext } from 'react';
+import { usePeople } from '../hooks/usePeople';
+import { ChallengeContextProps, Context } from '../types/Challenge';
 
 export const ChallengeContext = createContext<Context | null>(null)
 
 export const DataProvider = (props: ChallengeContextProps) => {
 
-  const { people, addPerson } = useGetPeople()
+  const { people, addPerson } = usePeople()
 
   return (
     <ChallengeContext.Provider

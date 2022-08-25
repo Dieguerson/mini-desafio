@@ -1,13 +1,11 @@
-import React from "react";
+import React from 'react';
 import '../styles/Greeting.scss'
 
-const Greeting = () => {
+export const Greeting = () => {
   return (
-    <section className="welcome">
-      <img className='image' src={require("../assets/welcome.png")} alt="greeting" />
-      <h1 className='greeting'>Welcome!</h1>
+    <section className='welcome'>
+      <img className='image' src={require('../assets/welcome.png')} alt='greeting' />
+      <h1 className='greeting'>Bienvenides!</h1>
     </section>
   )
 }
-
-export { Greeting }

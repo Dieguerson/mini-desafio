@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 import '../styles/Personas.scss'
-import { ChallengeContext } from "../context/challengeContext";
-import { Context } from "../types/Challenge";
+import { ChallengeContext } from '../context/challengeContext';
+import { Context } from '../types/Challenge';
 
-const Personas = () => {
+export const Personas = () => {
 
   const { people } = useContext(ChallengeContext) as Context
 
   return (
-    <table className="table">
+    <table className='table'>
       <thead>
         <tr>
           <th>Nombre</th>
@@ -34,5 +34,3 @@ const Personas = () => {
     </table>
   )
 }
-
-export { Personas }

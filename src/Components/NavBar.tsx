@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Icon } from '@iconify/react'
 import '../styles/NavBar.scss'
 
-function NavBar () {
+export function NavBar () {
   return (
     <>
       <header>
@@ -33,5 +33,3 @@ function NavBar () {
     </>
   )
 }
-
-export default NavBar

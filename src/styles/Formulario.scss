@@ -4,11 +4,11 @@
   justify-content: flex-start;
   align-content: center;
   border-radius: 8px;
-  border: 2px solid rgb(255, 125, 233);
+  border: 2px solid rgba(255, 125, 233, 0.5);
   max-height: 320px;
   color: white;
   padding: 16px;
-  margin: 100px auto 0;
+  margin: 40px auto 0;
 
   label {
     font-weight: bold;
@@ -22,7 +22,7 @@
 
     input{
       border-radius: 6px;
-      border: 1px solid rgb(255, 125, 233);
+      border: 1px solid rgba(255, 125, 233, 0.5);
       background-color: rgba(0, 0, 0, 0.2);
       height: 28px;
       padding: 8px;
@@ -41,7 +41,7 @@
     padding: 4px;
     box-sizing: border-box;
     font-weight: bold;
-    background-color: rgba(255, 125, 233, 0.8);
+    background-color: rgba(255, 125, 233, 0.5);
     margin-top: 16px ;
   }
 }
@@ -50,6 +50,7 @@
   width: 100%;
   text-align: center;
   color: white;
+  padding: 0 16px 20px;
 
   ul {
     max-width: fit-content;
@@ -65,5 +66,11 @@
       @extend .route;
       color: rgb(255, 125, 233);
     }
+  }
+}
+
+@media (min-width:640px) {
+  .form {
+    margin-top: 100px;
   }
 }

@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
-import { Persona } from "../types/Challenge"
+import { useEffect, useState } from 'react'
+import { Persona } from '../types/Challenge'
 
-export const useGetPeople = () => {
+export const usePeople = () => {
 
   const [people, setPeople] = useState<Persona[]>([])
 
